@@ -11,6 +11,8 @@ cask 'winebottler' do
   app 'Wine.app'
 
   zap delete: [
+                '~/Library/Application Support/Wine',
+                '~/Library/Application Support/WineBottler',
                 '~/Library/Preferences/org.kronenberg.Wine.plist',
                 '~/Library/Preferences/org.kronenberg.WineBottler.plist',
                 '~/Library/Preferences/org.kronenberg.Winetricks.plist',
