@@ -10,14 +10,14 @@ cask 'winebottler' do
   app 'WineBottler.app'
   app 'Wine.app'
 
-  zap delete: [
-                '~/Library/Application Support/Wine',
-                '~/Library/Application Support/WineBottler',
-                '~/Library/Preferences/org.kronenberg.Wine.plist',
-                '~/Library/Preferences/org.kronenberg.WineBottler.plist',
-                '~/Library/Preferences/org.kronenberg.Winetricks.plist',
-                '~/Library/Caches/org.kronenberg.Wine',
-                '~/Library/Caches/org.kronenberg.WineBottler',
-                '~/Library/Caches/org.kronenberg.Winetricks',
-              ]
+  zap trash: [
+               '~/Library/Application Support/Wine',
+               '~/Library/Application Support/WineBottler',
+               '~/Library/Preferences/org.kronenberg.Wine.plist',
+               '~/Library/Preferences/org.kronenberg.WineBottler.plist',
+               '~/Library/Preferences/org.kronenberg.Winetricks.plist',
+               '~/Library/Caches/org.kronenberg.Wine',
+               '~/Library/Caches/org.kronenberg.WineBottler',
+               '~/Library/Caches/org.kronenberg.Winetricks',
+             ]
 end

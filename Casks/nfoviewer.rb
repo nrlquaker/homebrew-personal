@@ -9,6 +9,8 @@ cask 'nfoviewer' do
   app 'NFOViewer.app'
   font 'ProFont/ProFontWindows.ttf'
 
-  zap delete: '~/Library/Caches/net.sourceforge.blockart',
-      trash:  '~/Library/Preferences/net.sourceforge.blockart.plist'
+  zap trash: [
+               '~/Library/Caches/net.sourceforge.blockart',
+               '~/Library/Preferences/net.sourceforge.blockart.plist',
+             ]
 end
