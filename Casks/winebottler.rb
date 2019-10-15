@@ -1,6 +1,6 @@
 cask 'winebottler' do
-  version '2.0'
-  sha256 '725955d89b36e8ef36abf4a56db45e15de16a827ddecc7edc88e88ff440c3390'
+  version '4.0.1.1'
+  sha256 '08bc65c61268220022be0db864d45d3c3181ad8553c4fd343a2462eea8082781'
 
   # github.com was verified as official when first introduced to the cask
   url "https://github.com/nrlquaker/homebrew-personal-binaries/raw/master/Bin/WineBottlerCombo_#{version}.dmg"
