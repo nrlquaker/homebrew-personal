@@ -17,4 +17,5 @@ You can now install casks from this repository:
 | Package name           | Description                                   | Homepage                                                   |
 | ---------------------- | --------------------------------------------- | ---------------------------------------------------------- |
 | `colorpicker-launcher` | Launcher for macOS Color Picker               | [Link](https://github.com/nrlquaker/color-picker-launcher) |
+| `orfo` and `orfo-plus` | Spell check system                            | [Link](http://www.orfo.ru/)                                |
 | `winebottler`          | Packages Windows-based programs into Mac apps | [Link](http://winebottler.kronenberg.org)                  |
