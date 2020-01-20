@@ -10,12 +10,10 @@ After you install homebrew-cask, run the following command:
 
 You can now install casks from this repository:
 
-`brew cask install colorpicker-launcher`
+`brew cask install orfo-plus`
 
 ## Packages
 
-| Package name           | Description                                   | Homepage                                                   |
-| ---------------------- | --------------------------------------------- | ---------------------------------------------------------- |
-| `colorpicker-launcher` | Launcher for macOS Color Picker               | [Link](https://github.com/nrlquaker/color-picker-launcher) |
-| `orfo` and `orfo-plus` | Spell check system                            | [Link](http://www.orfo.ru/)                                |
-| `winebottler`          | Packages Windows-based programs into Mac apps | [Link](http://winebottler.kronenberg.org)                  |
+| Package name           | Description        | Homepage                    |
+| ---------------------- | ------------------ | --------------------------- |
+| `orfo` and `orfo-plus` | Spell check system | [Link](http://www.orfo.ru/) |
