@@ -10,7 +10,7 @@ After you install homebrew-cask, run the following command:
 
 You can now install casks from this repository:
 
-`brew cask install orfo-plus`
+`brew install orfo-plus`
 
 ## Packages
 
